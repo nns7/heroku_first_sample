@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   get 'sample/index'
 
-  root 'sample#index'
+  root 'application#hello'
 
   get 'sample/index'
 
